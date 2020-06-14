@@ -1,0 +1,74 @@
+.grid {
+    display: grid;
+    width: 90vw;
+    min-height: 65vh;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.chart {
+    border-radius: 10px;
+    background-color: rgb(30, 30, 30);
+    height: 100%;
+    padding: 10px;
+    transition: box-shadow 0.5s;
+}
+
+.chart:hover {
+    box-shadow: 0px 10px 6px -6px rgba(20, 20, 20, 0.2), 0px 10px 10px 3px rgba(0,0,0,0.14), 0px 10px 10px 3px rgba(0,0,0,0.12);
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+  }
+
+.form {
+    margin-top: 5px;
+    max-height: 25vh;
+    width: 90vw;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    margin: 10px auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.form:hover {
+    box-shadow: 0px 10px 6px -6px rgba(20, 20, 20, 0.2), 0px 10px 10px 3px rgba(0,0,0,0.14), 0px 10px 10px 3px rgba(0,0,0,0.12);
+}
+
+.title {
+    color:rgb(219, 219, 219);
+}
+
+.form p {
+    color: rgb(219, 219, 219);
+}
+
+footer {
+    height: 5vh;
+    padding-top: 10px;
+    color: rgb(120, 120, 120);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: grid;
+        width: 90vw;
+        min-height: 70vh;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
+        row-gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+}
+
