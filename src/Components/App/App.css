@@ -70,5 +70,9 @@ footer {
         align-items: center;
         margin: 0px auto;
     }
+
+    .form {
+        min-height: 35vh;
+    }
 }
 
