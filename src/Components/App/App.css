@@ -72,7 +72,7 @@ footer {
     }
 
     .form {
-        height: 35vh;
+        max-height: fit-content;
     }
 }
 
